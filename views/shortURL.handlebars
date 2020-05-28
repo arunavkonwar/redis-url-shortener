@@ -1,0 +1,10 @@
+<h1>Enter URL</h1>
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form method="POST" action="/">
+
+    <div class="form-group">
+        <label>Enter URL to shorten it</label>
+        <input type="text" name="main_url" class="form-control" placeholder="Enter URL here...">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Shorten">
+</form>
